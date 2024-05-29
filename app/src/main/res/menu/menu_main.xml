@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/baseline_autorenew_24"
+        android:title="Refresh"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ic_menu"
+        android:title=" Choose Difficulty Level"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mi_custom"
+        android:title="Create Custom Images"
+        android:visible="false"
+        app:showAsAction="never" />
+</menu>
